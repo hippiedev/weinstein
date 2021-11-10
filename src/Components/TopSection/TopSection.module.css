@@ -1,0 +1,24 @@
+.TopSection {
+    height: fit-content;
+    width: 100%;
+    padding: 50px 20%;
+    background: rgb(52, 24, 230);
+    color: #fff;
+}
+.TopSection h1 {
+    margin-bottom: 25px;
+}
+.TopSection p {
+    line-height: 35px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.TopSection span {
+    height: 400px;
+}
+
+@media(max-width: 768px) {
+    .TopSection {
+        padding: 50px 10%;
+    }
+}

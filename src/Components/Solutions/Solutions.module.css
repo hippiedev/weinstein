@@ -1,0 +1,24 @@
+.Solutions {
+    height: fit-content;
+    width: 80%;
+    background: #fff;
+    border-radius: 7px;
+    position: relative;
+    top: -150px;
+    margin: 0 auto;
+    color: #000;
+}
+.SolutionSelection {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    list-style: none;
+    overflow-x: scroll;
+}
+.SolutionSelection li {
+    opacity: 0.8;
+    padding: 10px 20px;
+    cursor: pointer;
+}

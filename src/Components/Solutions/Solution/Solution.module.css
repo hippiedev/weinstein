@@ -1,0 +1,40 @@
+.Solution {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: fit-content;
+    width: 100%;
+}
+.Solution div {
+    width: 30%;
+    height: fit-content;
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.Solution div h2 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.Solution div img {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.Solution div p {
+    font-size: 14px;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .Solution {
+        flex-direction: column;
+    }
+    .Solution div {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
