@@ -35,6 +35,7 @@
     }
     .Solution div {
         width: 90%;
+        height: fit-content;
         margin: 0 auto;
         margin-bottom: 20px;
     }
