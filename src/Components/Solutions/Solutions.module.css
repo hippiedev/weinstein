@@ -26,7 +26,7 @@
 @media(max-width: 768px) {
     .SolutionSelection {
         justify-content:stretch;
-        overflow-x: scroll;
+        overflow-x: scroll;  
         padding: 30px 10px;
     }
     .SolutionSelection li {
