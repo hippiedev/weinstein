@@ -11,14 +11,26 @@
 .SolutionSelection {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     width: 90%;
     margin: 0 auto;
     padding: 30px;
     list-style: none;
-    overflow-x: scroll;
 }
 .SolutionSelection li {
     opacity: 0.8;
-    padding: 10px 20px;
     cursor: pointer;
+    padding: 10px 20px;
+}
+
+@media(max-width: 768px) {
+    .SolutionSelection {
+        justify-content:stretch;
+        overflow-x: scroll;
+        padding: 30px 10px;
+    }
+    .SolutionSelection li {
+        min-width: 220px;
+        padding: 10px;
+    }
 }

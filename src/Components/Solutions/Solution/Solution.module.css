@@ -7,7 +7,7 @@
 }
 .Solution div {
     width: 30%;
-    height: fit-content;
+    height: 420px;
     border: 1px solid rgb(126, 126, 126);
     border-radius: 5px;
     padding: 10px 20px;
@@ -36,5 +36,6 @@
     .Solution div {
         width: 90%;
         margin: 0 auto;
+        margin-bottom: 20px;
     }
 }
