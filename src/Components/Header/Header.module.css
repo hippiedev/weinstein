@@ -6,6 +6,7 @@
     justify-content: space-between;
     padding: 30px 20px;
     background: #fff;
+    position: relative;
 }
 .Logo {
     width: fit-content;
@@ -22,6 +23,20 @@
 .Logo h2{
     font-weight: 500;
     height: fit-content;
+}
+.Overlay {
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    background: #fff;
+    position: absolute;
+    top: 70px;
+    z-index: 10;
+    box-shadow: 0 8px 8px rgb(0 0 0 / 30%);
+    transition: 0.3s ease-in-out;
+}
+.Overlay li {
+    padding: 20px;
 }
 .Menu {
     display: flex;

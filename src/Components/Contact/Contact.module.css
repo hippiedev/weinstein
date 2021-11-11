@@ -1,0 +1,42 @@
+.Contact {
+    height: fit-content;
+    width: 100%;
+}
+.Contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.Contact p {
+    font-weight: 500;
+}
+.ContactInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.ContactInfo span p {
+    color: #212F5F;
+    padding-top: 20px;
+}
+.ContactInfo span h3 {
+    padding-top: 20px;
+}
+
+@media(max-width: 768px) {
+    .Contact {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .ContactInfo {
+        flex-direction: column;
+    }
+    .ContactInfo span {
+        margin-bottom: 100px;
+    }
+    .ContactInfo span:last-child {
+        margin: 0;
+    }
+}

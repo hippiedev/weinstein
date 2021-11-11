@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../Contact/Contact';
 import Layout from '../Layout';
 import Solutions from '../Solutions/Solutions';
 import TopSection from '../TopSection/TopSection';
@@ -12,6 +13,7 @@ function Home() {
             Using innovative technology chosen by some of Canada’s largest institutions, Nest Wealth’s digital wealth solutions empower investors to receive access to sophisticated and personalized wealth advice tailored to their unique goals and objectives.
             </TopSection>
             <Solutions />
+            <Contact />
         </div>
         </Layout>
     )
