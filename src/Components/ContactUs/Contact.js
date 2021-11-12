@@ -28,13 +28,14 @@ function Contact() {
           <img src={mailIcon} alt="" />
           <p>
             Email support at <br />{" "}
-            <a href="mailto:support@weinstein-investments.com">
-              support@weinstein-investments.com
+            <a href="mailto:Weinsteininvestment@gmail.com">
+              Weinsteininvestment@gmail.com
             </a>
           </p>
           <div>
             <h2>Call or end us a message directly</h2>
             <p>Nest Wealth Asset Management Inc.</p>
+            <p>+1-613-900-3735</p>
             <p>
               379 Adelaide St W 3rd Floor,
               <br />

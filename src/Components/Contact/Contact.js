@@ -20,7 +20,7 @@ function Contact() {
         <span>
           <img src={phoneIcon} alt="" />
           <h3>Call us</h3>
-          <p>(647) 725-2559 x6</p>
+          <p>+1-613-900-3735</p>
         </span>
       </div>
     </div>

@@ -68,7 +68,7 @@ function Header() {
             </li>
           </div>
           <button>
-            <a href="/contact">Request a Demo</a>
+            <Link to="/contact">Request a Demo</Link>
           </button>
         </ul>
         <img onClick={handleMenu} id={styles.burger} src={hamburgerIcon} alt="" />
