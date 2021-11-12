@@ -21,6 +21,8 @@
 }
 
 .ContactInfo div {
+    width: 70%;
+    margin: 0 auto;
     margin-top: 30px;
 }
 .ContactInfo h2 {
