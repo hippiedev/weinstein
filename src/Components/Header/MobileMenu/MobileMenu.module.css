@@ -1,0 +1,38 @@
+.MobileMenu{
+    position: fixed;
+    display: none;
+    z-index: 30;
+    background-color: #fff;
+    width: 100%;
+    height: fit-content;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+}
+.MobileMenu ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.MobileMenu ul:first-of-type {
+    padding-top: 20px;
+}
+.MobileMenu ul li:first-child {
+    font-weight: 600;
+}
+.MobileMenu ul li {
+    padding: 10px;
+}
+.MobileMenu button {
+    border-style: none;
+    padding: 10px 20px;
+    background: rgb(52, 24, 230);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;    
+    margin: 30px 0px;
+}
+@media(max-width: 768px) {
+    .MobileMenu {
+        display: block;
+    }
+}

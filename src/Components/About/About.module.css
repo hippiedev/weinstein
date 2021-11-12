@@ -1,0 +1,14 @@
+.Content {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0px;
+    margin-bottom: 300px;
+    position: relative;
+}
+.Content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.Content p {
+    line-height: 28px;
+}

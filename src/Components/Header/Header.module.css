@@ -30,13 +30,18 @@
     padding: 20px;
     background: #fff;
     position: absolute;
-    top: 70px;
+    top: 68px;
     z-index: 10;
     box-shadow: 0 8px 8px rgb(0 0 0 / 30%);
     transition: 0.3s ease-in-out;
 }
-.Overlay li {
-    padding: 20px;
+.Overlay:last-of-type {
+    left: 73%;
+}
+.Overlay li{
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
 }
 .Menu {
     display: flex;
@@ -45,7 +50,7 @@
     list-style: none;
     font-weight: 500;
 }
-.Menu li {
+.Menu #NavItem {
     padding: 0px 30px;
     display: flex;
     align-items: center;
@@ -60,7 +65,16 @@
     font-size: 16px;
     cursor: pointer;
 }
+#burger {
+    display: none;
+}
 
 @media (max-width: 768px) {
     .Menu {display: none;}
+    .Logo h2 {
+        display: none;
+    }
+    #burger {
+        display: flex;
+    }
 }
