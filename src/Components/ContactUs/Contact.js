@@ -37,7 +37,7 @@ function Contact() {
             <p>Weinstein Investment Bank</p>
             <p>+1-613-900-3735</p>
             <p>
-              379 Adelaide St W 3rd Floor,
+              379 Adelaide St,
               <br />
               Toronto, ON M5V 1S5, Canada
             </p>

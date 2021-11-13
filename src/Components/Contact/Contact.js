@@ -13,7 +13,7 @@ function Contact() {
           <img src={markerIcon} alt="" />
           <h3>Location</h3>
           <p>
-            379 Adelaide St W 3rd Floor,
+            379 Adelaide St,
             <br /> Toronto, ON M5V 1S5, Canada
           </p>
         </span>
