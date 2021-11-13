@@ -16,21 +16,21 @@ function About() {
         <div className={styles.Content}>
         <h2>Who We Are</h2>
         <p>
-          Founded in 2014, Nest Wealth created Canada’s first Software as a
+          Weinstein investment created one of Canada’s first Software as a
           Service (SaaS) based digital wealth management platform with the goal
           of increasing investor access to sophisticated wealth management
           advice.
           <br />
           <br />
-          Nest Wealth’s digital wealth solutions also empower wealth management
+          Weinstein investment digital wealth solutions also empower wealth management
           firms and individual advisors to provide and manage virtually any
           investment for any investor through any distribution channel. Today,
-          Nest Wealth’s digital solutions are used by well-established financial
+          Weinstein investment digital solutions are used by well-established financial
           institutions across North America, including the National Bank of
           Canada, to deliver superior investment experiences to clients.
           <br />
           <br />
-          Nest Wealth also offers an automated, low-fee and transparent
+          Weinstein investment also offers an automated, low-fee and transparent
           direct-to-investor wealth management solution that makes it easier for
           thousands of Canadians to reach their financial goals.
         </p>

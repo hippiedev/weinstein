@@ -59,7 +59,7 @@ function Solution(props) {
             itemImage2 = coworker;
             itemImage3 = dashboard;
             itemContent1 = 'You can help your employees save more at no cost to you.';
-            itemContent2 = '3 Minute Setup – no more paper work or licking envelopes, getting your company setup on Nest Wealth at Work is effortless.';
+            itemContent2 = '3 Minute Setup – no more paper work or licking envelopes, getting your company setup on Weinstein investment at Work is effortless.';
             itemContent3 = 'Get the big picture of your entire company plan at your fingertips.';
             break;
         

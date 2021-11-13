@@ -10,7 +10,7 @@ function Home() {
         <Layout>
         <div className={styles.Home}>
             <TopSection top title="Digital Wealth Solutions for Everyone">
-            Using innovative technology chosen by some of Canada’s largest institutions, Nest Wealth’s digital wealth solutions empower investors to receive access to sophisticated and personalized wealth advice tailored to their unique goals and objectives.
+            Using innovative technology chosen by some of Canada’s largest institutions, Weinstein investment's digital wealth solutions empower investors to receive access to sophisticated and personalized wealth advice tailored to their unique goals and objectives.
             </TopSection>
             <Solutions />
             <Contact />

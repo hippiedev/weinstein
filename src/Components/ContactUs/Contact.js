@@ -34,7 +34,7 @@ function Contact() {
           </p>
           <div>
             <h2>Call or end us a message directly</h2>
-            <p>Nest Wealth Asset Management Inc.</p>
+            <p>Weinstein Investment Bank</p>
             <p>+1-613-900-3735</p>
             <p>
               379 Adelaide St W 3rd Floor,
