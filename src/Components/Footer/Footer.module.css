@@ -25,6 +25,7 @@
 }
 .Content ul li {
     padding-bottom: 10px;
+    cursor: pointer;
 } 
 
 @media (max-width: 768px) {
